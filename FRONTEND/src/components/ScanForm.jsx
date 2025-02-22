@@ -7,6 +7,21 @@ export default function ScanForm() {
   const [loading, setLoading] = useState(false);
   const [scanId, setScanId] = useState(null);
 
+    // Inside ScanForm.jsx after setting scanId
+    useEffect(() => {
+        if (scanId) {
+        const interval = setInterval(async () => {
+            const response = await axios.get(`http://localhost:3000/scan/${scanId}`);
+            if (response.data.status === 'completed') {
+            clearInterval(interval);
+            // Update state with results
+            }
+        }, 5000);
+        return () => clearInterval(interval);
+        }
+    }, [scanId]);
+    
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
