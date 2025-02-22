@@ -1,0 +1,38 @@
+{
+  "name": "jurrasicdev",
+  "version": "1.0.0",
+  "description": "GT Hacks Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpmeyer3/JURRASICDEV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpmeyer3/JURRASICDEV/issues"
+  },
+  "homepage": "https://github.com/rpmeyer3/JURRASICDEV#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^3.8.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.4.5",
+    "@react-pdf/renderer": "^4.2.2",
+    "axios": "^1.7.9",
+    "framer-motion": "^12.4.7",
+    "jspdf": "^3.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "jest": "^29.7.0"
+  }
+}

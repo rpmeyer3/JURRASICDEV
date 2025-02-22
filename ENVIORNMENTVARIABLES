@@ -1,0 +1,21 @@
+Environment Variables
+
+You’ll need to securely configure these in a .env file or secrets manager:
+
+env
+
+SHODAN_API_KEY=your_key_here
+VIRUSTOTAL_API_KEY=your_key_here
+GOOGLE_SAFE_BROWSING_KEY=your_key_here
+DATABASE_URL=postgres://user:pass@host:port/db
+REDIS_URL=redis://localhost:6379
+Installation Notes
+OWASP ZAP: Run via Docker for simplicity:
+
+bash
+
+docker pull owasp/zap2docker-stable
+docker run -t owasp/zap2docker-stable zap-baseline.py -t http://target-site.com
+Python/Node.js Conflicts: Use virtualenv (Python) or nvm (Node.js) to manage versions.
+
+Security: Never hardcode API keys—use environment variables or a secrets manager like AWS Secrets Manager.

@@ -1,0 +1,134 @@
+Frontend (React.js/Next.js)
+
+Core Packages
+
+react, react-dom, react-router-dom (routing)
+axios or fetch (API communication)
+UI Library: @mui/material (Material-UI) or @chakra-ui/react (Chakra UI)
+react-pdf or jsPDF (PDF report generation)
+
+Testing
+
+jest, react-testing-library (unit/integration tests)
+
+Build Tools
+
+vite (React) or next (Next.js)
+sass or tailwindcss (styling)
+Backend (Python/Node.js)
+Python (Flask/Django)
+
+Core Packages
+
+flask/django (framework)
+celery (async task queue)
+redis or rabbitmq (message broker for Celery)
+python-owasp-zap (OWASP ZAP API wrapper)
+requests (API calls to Shodan/VirusTotal)
+cryptography (encryption)
+reportlab (PDF generation)
+
+APIs & Integrations
+
+Shodan: shodan (Python library)
+VirusTotal: virustotal-api
+SSL Labs: ssllabs-api
+
+Database
+
+PostgreSQL: psycopg2
+ORM: sqlalchemy (Flask) or Django’s built-in ORM
+
+Testing
+
+pytest (testing framework)
+httpx (mock API responses)
+Node.js (Express)
+
+Core Packages
+
+express (framework)
+bullmq (async task queue)
+redis (message broker)
+node-owasp-zap (OWASP ZAP client)
+pdfkit (PDF generation)
+
+APIs & Integrations
+
+Shodan: shodan-api
+VirusTotal: virustotal.js
+Google Safe Browsing: googleapis
+
+Database
+
+MongoDB: mongoose
+PostgreSQL: sequelize
+
+Security
+
+bcrypt (password hashing)
+helmet (secure headers)
+Testing
+jest (testing framework)
+supertest (API endpoint testing)
+
+Scanning Tools & CLI Dependencies
+
+Security Tools
+
+OWASP ZAP (install via Docker or download)
+OpenSSL (for SSL/TLS checks) or ssllabs-api
+Shodan CLI (shodan Python/Node.js package)
+Wappalyzer (use their API or wappalyzer npm package)
+nmap (optional, for port scanning)
+Docker (if containerizing tools like ZAP):
+Docker Desktop (install)
+Development Tools
+
+General
+
+Git (version control)
+Postman/Insomnia (API testing)
+VS Code Extensions: ESLint, Prettier, Docker
+
+Python
+
+Python 3.8+
+
+pip (package manager)
+virtualenv or poetry (dependency isolation)
+Node.js
+Node.js 18+
+npm or yarn (package manager)
+CI/CD (optional):
+GitHub Actions/GitLab CI
+
+Infrastructure
+
+Database
+
+PostgreSQL, MySQL, or MongoDB
+
+Caching/Queues
+
+Redis (for task queues)
+Hosting
+Frontend: Vercel, Netlify, or AWS S3
+Backend: AWS EC2, Heroku, or Docker (Kubernetes)
+Database: AWS RDS, MongoDB Atlas
+Monitoring
+Prometheus + Grafana (logs/metrics)
+Sentry (error tracking)
+
+APIs & Keys
+Required API Accounts
+
+OWASP ZAP API
+Shodan
+VirusTotal
+Google Safe Browsing
+SSL Labs
+Optional for Bonus Features
+HaveIBeenPwned API (dark web lookup)
+TensorFlow/PyTorch (AI-powered analysis)
+Puppeteer (HTML-to-PDF rendering)
