@@ -1,0 +1,87 @@
+/* General Navbar Styling */
+.navbar {
+  background-color: #2E3436;  /* Linux Mint Dark Gray */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo Styling */
+.navbar-logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: #00B140;  /* Mint Green */
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-logo a:hover {
+  color: #009927;  /* Darker Green */
+}
+
+/* Navbar Links Styling */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.navbar-links li {
+  margin-right: 25px;
+}
+
+.navbar-links a {
+  color: #ffffff;  /* White text */
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-links a:hover {
+  color: #00B140;  /* Mint Green */
+}
+
+/* Add some padding to the links to make them more clickable */
+.navbar-links li a {
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect on links */
+.navbar-links li a:hover {
+  background-color: #3D474B; /* Slight Darker Grey */
+}
+
+/* Responsive navbar for mobile devices */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .navbar-links li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar-links li a {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+  }
+}
