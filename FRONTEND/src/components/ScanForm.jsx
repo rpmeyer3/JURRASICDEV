@@ -47,6 +47,10 @@ export default function ScanForm() {
       <Button type="submit" variant="contained" disabled={loading} sx={{ mt: 2 }}>
         {loading ? <CircularProgress size={24} /> : 'Scan Website'}
       </Button>
+      <Button variant="outlined" onClick={() => window.open(`http://localhost:5000/report/${scanId}`, '_blank')}
+>
+  Download PDF Report
+</Button>
     </Box>
   );
 }
