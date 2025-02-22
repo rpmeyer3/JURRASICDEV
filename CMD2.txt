@@ -1,0 +1,124 @@
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npm install react react-dom react-router-dom
+
+added 9 packages, and audited 10 packages in 2s
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npm install axios
+
+added 23 packages, and audited 33 packages in 1s
+
+6 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npm install @mui/material @emotion/react @emotion/styled
+
+added 80 packages, and audited 113 packages in 6s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
+added 82 packages, and audited 195 packages in 9s
+
+19 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npm install @react-pdf/renderer
+
+added 56 packages, and audited 251 packages in 3s
+
+21 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npm install jspdf
+
+added 20 packages, and audited 271 packages in 4s
+
+22 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npm install jest @testing-library/react @testing-library/jest-dom --save-dev
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+added 283 packages, and audited 554 packages in 8s
+
+49 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npm create vite@latest my-app -- --template react
+
+> jurrasicdev@1.0.0 npx
+> create-vite my-app --template react
+
+
+Scaffolding project in C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\my-app...
+
+Done. Now run:
+
+  cd my-app
+  npm install
+  npm run dev
+
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npm create vite@latest web-slinger -- --template react     
+
+> jurrasicdev@1.0.0 npx
+> create-vite web-slinger --template react
+
+
+Scaffolding project in C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\web-slinger...
+
+Done. Now run:
+
+  cd web-slinger
+  npm install
+  npm run dev
+
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>cd web-slinger
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\web-slinger>npm install
+
+added 258 packages, and audited 259 packages in 9s
+
+108 packages are looking for funding
+  run `npm fund` for details
+
+3 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\web-slinger>npm run dev
+
+> web-slinger@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+
+  VITE v6.1.1  ready in 238 ms
+
+  ➜  Local:   http://localhost:5175/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help

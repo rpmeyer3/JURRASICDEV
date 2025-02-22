@@ -1,0 +1,739 @@
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npx create-next-app@latest web-slinger
+The directory web-slinger contains files that could conflict:
+
+  eslint.config.js
+  index.html
+  node_modules/
+  package-lock.json
+  package.json
+  public/
+  README.md
+  src/
+  vite.config.js
+
+Either try using a new directory name, or remove the files listed above.
+
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npx create-next-app@latest nextweb-slinger
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to use Turbopack for `next dev`? ... No / Yes
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes
+Creating a new Next.js app in C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+- postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+- @eslint/eslintrc
+
+
+added 375 packages, and audited 376 packages in 18s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Success! Created nextweb-slinger at C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger
+
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>cd nextweb-slinger
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install
+
+up to date, audited 376 packages in 1s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install tailwindcss postcss autoprefixer --save-dev
+
+added 8 packages, and audited 384 packages in 1s
+
+148 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npx tailwindcss init -p
+
+Created Tailwind CSS config file: tailwind.config.js
+Created PostCSS config file: postcss.config.js
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>pip install flask
+Requirement already satisfied: flask in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (3.1.0)
+Requirement already satisfied: Werkzeug>=3.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from flask) (3.1.3)
+Requirement already satisfied: Jinja2>=3.1.2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from flask) (3.1.5)
+Requirement already satisfied: itsdangerous>=2.2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from flask) (2.2.0)
+Requirement already satisfied: click>=8.1.3 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from flask) (8.1.8)
+Requirement already satisfied: blinker>=1.9 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from flask) (1.9.0)
+Requirement already satisfied: colorama in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from click>=8.1.3->flask) (0.4.6)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from Jinja2>=3.1.2->flask) (3.0.2)
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>pip install django
+Requirement already satisfied: django in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (5.1.6)
+Requirement already satisfied: asgiref<4,>=3.8.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from django) (3.8.1)
+Requirement already satisfied: sqlparse>=0.3.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from django) (0.5.3)
+Requirement already satisfied: tzdata in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from django) (2025.1)
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>pip install celery redis
+Requirement already satisfied: celery in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (5.4.0)
+Requirement already satisfied: redis in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (5.2.1)
+Requirement already satisfied: billiard<5.0,>=4.2.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (4.2.1)
+Requirement already satisfied: kombu<6.0,>=5.3.4 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (5.4.2)
+Requirement already satisfied: vine<6.0,>=5.1.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (5.1.0)
+Requirement already satisfied: click<9.0,>=8.1.2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (8.1.8)
+Requirement already satisfied: click-didyoumean>=0.3.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (0.3.1)
+Requirement already satisfied: click-repl>=0.2.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (0.3.0)
+Requirement already satisfied: click-plugins>=1.1.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (1.1.1)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (2025.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (2.9.0.post0)
+Requirement already satisfied: colorama in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from click<9.0,>=8.1.2->celery) (0.4.6)
+Requirement already satisfied: prompt-toolkit>=3.0.36 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from click-repl>=0.2.0->celery) (3.0.50)
+Requirement already satisfied: amqp<6.0.0,>=5.1.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from kombu<6.0,>=5.3.4->celery) (5.3.1)
+Requirement already satisfied: six>=1.5 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from python-dateutil>=2.8.2->celery) (1.17.0)
+Requirement already satisfied: wcwidth in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from prompt-toolkit>=3.0.36->click-repl>=0.2.0->celery) (0.2.13)
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>pip install celery rabbitmq
+Requirement already satisfied: celery in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (5.4.0)
+Requirement already satisfied: rabbitmq in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (0.2.0)
+Requirement already satisfied: billiard<5.0,>=4.2.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (4.2.1)
+Requirement already satisfied: kombu<6.0,>=5.3.4 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (5.4.2)
+Requirement already satisfied: vine<6.0,>=5.1.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (5.1.0)
+Requirement already satisfied: click<9.0,>=8.1.2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (8.1.8)
+Requirement already satisfied: click-didyoumean>=0.3.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (0.3.1)
+Requirement already satisfied: click-repl>=0.2.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (0.3.0)
+Requirement already satisfied: click-plugins>=1.1.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (1.1.1)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (2025.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (2.9.0.post0)
+Requirement already satisfied: cffi in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from rabbitmq) (1.17.1)
+Requirement already satisfied: colorama in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from click<9.0,>=8.1.2->celery) (0.4.6)
+Requirement already satisfied: prompt-toolkit>=3.0.36 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from click-repl>=0.2.0->celery) (3.0.50)
+Requirement already satisfied: amqp<6.0.0,>=5.1.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from kombu<6.0,>=5.3.4->celery) (5.3.1)
+Requirement already satisfied: six>=1.5 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from python-dateutil>=2.8.2->celery) (1.17.0)
+Requirement already satisfied: pycparser in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from cffi->rabbitmq) (2.22)
+Requirement already satisfied: wcwidth in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from prompt-toolkit>=3.0.36->click-repl>=0.2.0->celery) (0.2.13)
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>pip install python-owasp-zapv2 requests cryptography reportlab
+ERROR: Could not find a version that satisfies the requirement python-owasp-zapv2 (from versions: none)
+ERROR: No matching distribution found for python-owasp-zapv2
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>pip install shodan virustotal-api ssllabs-api
+Requirement already satisfied: shodan in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (1.31.0)
+Requirement already satisfied: virustotal-api in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (1.1.11)
+ERROR: Could not find a version that satisfies the requirement ssllabs-api (from versions: none)
+ERROR: No matching distribution found for ssllabs-api
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>pip install shodan virustotal-api            
+Requirement already satisfied: shodan in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (1.31.0)
+Requirement already satisfied: virustotal-api in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (1.1.11)
+Requirement already satisfied: click in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from shodan) (8.1.8)
+Requirement already satisfied: click-plugins in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from shodan) (1.1.1)
+Requirement already satisfied: colorama in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from shodan) (0.4.6)
+Requirement already satisfied: requests>=2.2.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from shodan) (2.32.3)
+Requirement already satisfied: XlsxWriter in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from shodan) (3.2.2)
+Requirement already satisfied: tldextract in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from shodan) (5.1.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests>=2.2.1->shodan) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests>=2.2.1->shodan) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests>=2.2.1->shodan) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests>=2.2.1->shodan) (2025.1.31)
+Requirement already satisfied: requests-file>=1.4 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from tldextract->shodan) (2.1.0)
+Requirement already satisfied: filelock>=3.0.8 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from tldextract->shodan) (3.17.0)
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>pip install psycopg2 sqlalchemy
+Requirement already satisfied: psycopg2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (2.9.10)
+Requirement already satisfied: sqlalchemy in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (2.0.38)
+Requirement already satisfied: greenlet!=0.4.17 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from sqlalchemy) (3.1.1)
+Requirement already satisfied: typing-extensions>=4.6.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from sqlalchemy) (4.12.2)
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>pip install pytest httpx --dev
+
+Usage:
+  pip install [options] <requirement specifier> [package-index-options] ...
+  pip install [options] -r <requirements file> [package-index-options] ...
+  pip install [options] [-e] <vcs project url> ...
+  pip install [options] [-e] <local project path> ...
+  pip install [options] <archive url/path> ...
+
+no such option: --dev
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>pip install pytest httpx      
+Requirement already satisfied: pytest in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (8.3.4)
+Requirement already satisfied: httpx in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (0.28.1)
+Requirement already satisfied: colorama in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from pytest) (0.4.6)
+Requirement already satisfied: iniconfig in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from pytest) (2.0.0)
+Requirement already satisfied: packaging in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from pytest) (24.2)
+Requirement already satisfied: pluggy<2,>=1.5 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from pytest) (1.5.0)
+Requirement already satisfied: anyio in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from httpx) (4.8.0)
+Requirement already satisfied: certifi in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from httpx) (2025.1.31)
+Requirement already satisfied: httpcore==1.* in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from httpx) (1.0.7)
+Requirement already satisfied: idna in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from httpx) (3.10)  
+Requirement already satisfied: h11<0.15,>=0.13 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from httpcore==1.*->httpx) (0.14.0)
+Requirement already satisfied: sniffio>=1.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from anyio->httpx) (1.3.1)
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install express bullmq redis pdfkit
+
+added 99 packages, and audited 483 packages in 4s
+
+155 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install shodan-api virustotal.js googleapis
+npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm error code 1
+npm error path C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c node-gyp rebuild
+npm error apprentice.c
+npm error   apptype.c
+npm error   ascmagic.c
+npm error   cdf.c
+npm error   cdf_time.c
+npm error   compress.c
+npm error   der.c
+npm error   encoding.c
+npm error   fsmagic.c
+npm error   funcs.c
+npm error   is_tar.c
+npm error   magic.c
+npm error   print.c
+npm error   readcdf.c
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\src\readcdf.c(133,7): warning C4013: 'strcasestr' undefined; assuming extern returning int [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\src\readcdf.c(133,39): warning C4047: '!=': 'int' differs in levels of indirection from 'void *' [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\src\readcdf.c(241,55): warning C4133: 'function': incompatible types - from 'long *' to 'const time_t *' [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   readelf.c
+npm error   softmagic.c
+npm error   fmtcheck.c
+npm error   asctime_r.c
+npm error   asprintf.c
+npm error   ctime_r.c
+npm error   dprintf.c
+npm error   getline.c
+npm error   gmtime_r.c
+npm error   localtime_r.c
+npm error   pread.c
+npm error   snprintf.c
+npm error   strcasestr.c
+npm error   strlcat.c
+npm error   strlcpy.c
+npm error   vasprintf.c
+npm error   regex.c
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regcomp.c(590,19): warning C4018: '<=': signed/unsigned mismatch [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regcomp.c(2513,39): warning C4312: 'type cast': conversion from 'long' to 'void *' of greater size [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regcomp.c(3725,19): warning C4311: 'type cast': pointer truncation from 'void *' to 'long' [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regexec.c(524,11): warning C4018: '>': signed/unsigned mismatch [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regexec.c(539,7): warning C4018: '>=': signed/unsigned mismatch [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regexec.c(549,13): warning C4018: '<': signed/unsigned mismatch [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error   win_delay_load_hook.cc
+npm error   libmagic.vcxproj -> C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\Release\\libmagic.lib
+npm error   binding.cc
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\src\binding.cc(284,39): error C2440: '=': cannot convert from 'const char [25]' to 'char *' [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\magic.vcxproj]
+npm error       C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\src\binding.cc(284,39):    
+npm error       Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.0.0
+npm error gyp info using node@22.13.1 | win32 | x64
+npm error gyp info find Python using Python version 3.13.2 found at "C:\Users\rpmey\AppData\Local\Programs\Python\Python313\python.exe"
+npm error gyp info find VS using VS2022 (17.12.35707.178) found at:
+npm error gyp info find VS "C:\Program Files\Microsoft Visual Studio\2022\Community"
+npm error gyp info find VS run with --verbose for detailed information
+npm error gyp info spawn C:\Users\rpmey\AppData\Local\Programs\Python\Python313\python.exe
+npm error gyp info spawn args [
+npm error gyp info spawn args 'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+npm error gyp info spawn args 'binding.gyp',
+npm error gyp info spawn args '-f',
+npm error gyp info spawn args 'msvs',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args 'C:\\Users\\rpmey\\OneDrive\\Documents\\GitHub\\JURRASICDEV\\nextweb-slinger\\node_modules\\mmmagic\\build\\config.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args 'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\addon.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args 'C:\\Users\\rpmey\\AppData\\Local\\node-gyp\\Cache\\22.13.1\\include\\node\\common.gypi',
+npm error gyp info spawn args '-Dlibrary=shared_library',
+npm error gyp info spawn args '-Dvisibility=default',
+npm error gyp info spawn args '-Dnode_root_dir=C:\\Users\\rpmey\\AppData\\Local\\node-gyp\\Cache\\22.13.1',
+npm error gyp info spawn args '-Dnode_gyp_dir=C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp',
+npm error gyp info spawn args '-Dnode_lib_file=C:\\\\Users\\\\rpmey\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\22.13.1\\\\<(target_arch)\\\\node.lib',
+npm error gyp info spawn args '-Dmodule_root_dir=C:\\Users\\rpmey\\OneDrive\\Documents\\GitHub\\JURRASICDEV\\nextweb-slinger\\node_modules\\mmmagic',
+npm error gyp info spawn args '-Dnode_engine=v8',
+npm error gyp info spawn args '--depth=.',
+npm error gyp info spawn args '--no-parallel',
+npm error gyp info spawn args '--generator-output',
+npm error gyp info spawn args 'C:\\Users\\rpmey\\OneDrive\\Documents\\GitHub\\JURRASICDEV\\nextweb-slinger\\node_modules\\mmmagic\\build',
+npm error gyp info spawn args '-Goutput_dir=.'
+npm error gyp info spawn args ]
+npm error gyp info spawn C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+npm error gyp info spawn args [
+npm error gyp info spawn args 'build\\binding.sln',
+npm error gyp info spawn args '/clp:Verbosity=minimal',
+npm error gyp info spawn args '/nologo',
+npm error gyp info spawn args '/p:Configuration=Release;Platform=x64'
+npm error gyp info spawn args ]
+npm error gyp ERR! build error
+npm error gyp ERR! stack Error: `C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe` failed with exit code: 1
+npm error gyp ERR! stack at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\build.js:216:23)
+npm error gyp ERR! stack at ChildProcess.emit (node:events:524:28)
+npm error gyp ERR! stack at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+npm error gyp ERR! System Windows_NT 10.0.26100
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+npm error gyp ERR! cwd C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic
+npm error gyp ERR! node -v v22.13.1
+npm error gyp ERR! node-gyp -v v11.0.0
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\rpmey\AppData\Local\npm-cache\_logs\2025-02-22T04_24_35_481Z-debug-0.log
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install axios
+
+added 7 packages, and audited 490 packages in 1s
+
+156 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install dotenv
+
+added 1 package, and audited 491 packages in 1s
+
+157 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install dotenv
+
+up to date, audited 491 packages in 1s
+
+157 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install express
+
+up to date, audited 491 packages in 1s
+
+157 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install body-parser
+
+up to date, audited 491 packages in 976ms
+
+157 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install nodemon --save-dev
+
+added 8 packages, and audited 499 packages in 2s
+
+158 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install nodemon --save-dev
+
+up to date, audited 499 packages in 972ms
+
+158 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install shodan-api virustotal.js googleapis
+npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm error code 1
+npm error path C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c node-gyp rebuild
+npm error apprentice.c
+npm error   apptype.c
+npm error   ascmagic.c
+npm error   cdf.c
+npm error   cdf_time.c
+npm error   compress.c
+npm error   der.c
+npm error   encoding.c
+npm error   fsmagic.c
+npm error   funcs.c
+npm error   is_tar.c
+npm error   magic.c
+npm error   print.c
+npm error   readcdf.c
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\src\readcdf.c(133,7): warning C4013: 'strcasestr' undefined; assuming extern returning int [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\src\readcdf.c(133,39): warning C4047: '!=': 'int' differs in levels of indirection from 'void *' [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\src\readcdf.c(241,55): warning C4133: 'function': incompatible types - from 'long *' to 'const time_t *' [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   readelf.c
+npm error   softmagic.c
+npm error   fmtcheck.c
+npm error   asctime_r.c
+npm error   asprintf.c
+npm error   ctime_r.c
+npm error   dprintf.c
+npm error   getline.c
+npm error   gmtime_r.c
+npm error   localtime_r.c
+npm error   pread.c
+npm error   snprintf.c
+npm error   strcasestr.c
+npm error   strlcat.c
+npm error   strlcpy.c
+npm error   vasprintf.c
+npm error   regex.c
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regcomp.c(590,19): warning C4018: '<=': signed/unsigned mismatch [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regcomp.c(2513,39): warning C4312: 'type cast': conversion from 'long' to 'void *' of greater size [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regcomp.c(3725,19): warning C4311: 'type cast': pointer truncation from 'void *' to 'long' [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regexec.c(524,11): warning C4018: '>': signed/unsigned mismatch [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regexec.c(539,7): warning C4018: '>=': signed/unsigned mismatch [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regexec.c(549,13): warning C4018: '<': signed/unsigned mismatch [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error   win_delay_load_hook.cc
+npm error   libmagic.vcxproj -> C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\Release\\libmagic.lib
+npm error   binding.cc
+npm error C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\src\binding.cc(284,39): error C2440: '=': cannot convert from 'const char [25]' to 'char *' [C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\build\magic.vcxproj]
+npm error       C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic\src\binding.cc(284,39):    
+npm error       Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.0.0
+npm error gyp info using node@22.13.1 | win32 | x64
+npm error gyp info find Python using Python version 3.13.2 found at "C:\Users\rpmey\AppData\Local\Programs\Python\Python313\python.exe"
+npm error gyp info find VS using VS2022 (17.12.35707.178) found at:
+npm error gyp info find VS "C:\Program Files\Microsoft Visual Studio\2022\Community"
+npm error gyp info find VS run with --verbose for detailed information
+npm error gyp info spawn C:\Users\rpmey\AppData\Local\Programs\Python\Python313\python.exe
+npm error gyp info spawn args [
+npm error gyp info spawn args 'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+npm error gyp info spawn args 'binding.gyp',
+npm error gyp info spawn args '-f',
+npm error gyp info spawn args 'msvs',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args 'C:\\Users\\rpmey\\OneDrive\\Documents\\GitHub\\JURRASICDEV\\nextweb-slinger\\node_modules\\mmmagic\\build\\config.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args 'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\addon.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args 'C:\\Users\\rpmey\\AppData\\Local\\node-gyp\\Cache\\22.13.1\\include\\node\\common.gypi',
+npm error gyp info spawn args '-Dlibrary=shared_library',
+npm error gyp info spawn args '-Dvisibility=default',
+npm error gyp info spawn args '-Dnode_root_dir=C:\\Users\\rpmey\\AppData\\Local\\node-gyp\\Cache\\22.13.1',
+npm error gyp info spawn args '-Dnode_gyp_dir=C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp',
+npm error gyp info spawn args '-Dnode_lib_file=C:\\\\Users\\\\rpmey\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\22.13.1\\\\<(target_arch)\\\\node.lib',
+npm error gyp info spawn args '-Dmodule_root_dir=C:\\Users\\rpmey\\OneDrive\\Documents\\GitHub\\JURRASICDEV\\nextweb-slinger\\node_modules\\mmmagic',
+npm error gyp info spawn args '-Dnode_engine=v8',
+npm error gyp info spawn args '--depth=.',
+npm error gyp info spawn args '--no-parallel',
+npm error gyp info spawn args '--generator-output',
+npm error gyp info spawn args 'C:\\Users\\rpmey\\OneDrive\\Documents\\GitHub\\JURRASICDEV\\nextweb-slinger\\node_modules\\mmmagic\\build',
+npm error gyp info spawn args '-Goutput_dir=.'
+npm error gyp info spawn args ]
+npm error gyp info spawn C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+npm error gyp info spawn args [
+npm error gyp info spawn args 'build\\binding.sln',
+npm error gyp info spawn args '/clp:Verbosity=minimal',
+npm error gyp info spawn args '/nologo',
+npm error gyp info spawn args '/p:Configuration=Release;Platform=x64'
+npm error gyp info spawn args ]
+npm error gyp ERR! build error
+npm error gyp ERR! stack Error: `C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe` failed with exit code: 1
+npm error gyp ERR! stack at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\build.js:216:23)
+npm error gyp ERR! stack at ChildProcess.emit (node:events:524:28)
+npm error gyp ERR! stack at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+npm error gyp ERR! System Windows_NT 10.0.26100
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+npm error gyp ERR! cwd C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\node_modules\mmmagic
+npm error gyp ERR! node -v v22.13.1
+npm error gyp ERR! node-gyp -v v11.0.0
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\rpmey\AppData\Local\npm-cache\_logs\2025-02-22T04_26_54_568Z-debug-0.log
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install @uuidjs/uuid
+npm error code E404
+npm error 404 Not Found - GET https://registry.npmjs.org/@uuidjs%2fuuid - Not found
+npm error 404
+npm error 404  '@uuidjs/uuid@*' is not in this registry.
+npm error 404
+npm error 404 Note that you can also install from a
+npm error 404 tarball, folder, http url, or git url.
+npm error A complete log of this run can be found in: C:\Users\rpmey\AppData\Local\npm-cache\_logs\2025-02-22T04_28_06_379Z-debug-0.log
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install @uuidjs/uuid
+npm error code E404
+npm error 404 Not Found - GET https://registry.npmjs.org/@uuidjs%2fuuid - Not found
+npm error 404
+npm error 404  '@uuidjs/uuid@*' is not in this registry.
+npm error 404
+npm error 404 Note that you can also install from a
+npm error 404 tarball, folder, http url, or git url.
+npm error A complete log of this run can be found in: C:\Users\rpmey\AppData\Local\npm-cache\_logs\2025-02-22T04_28_09_542Z-debug-0.log
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install uuid
+
+added 1 package, changed 1 package, and audited 500 packages in 1s
+
+159 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install @uuidjs/uuid
+npm error code E404
+npm error 404 Not Found - GET https://registry.npmjs.org/@uuidjs%2fuuid - Not found
+npm error 404
+npm error 404  '@uuidjs/uuid@*' is not in this registry.
+npm error 404
+npm error 404 Note that you can also install from a
+npm error 404 tarball, folder, http url, or git url.
+npm error A complete log of this run can be found in: C:\Users\rpmey\AppData\Local\npm-cache\_logs\2025-02-22T04_29_52_992Z-debug-0.log
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install --global windows-build-tools
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm warn deprecated windows-build-tools@5.2.2: Node.js now includes build tools for Windows. You probably no longer need this tool. See https://github.com/felixrieseberg/windows-build-tools for details.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Users\\rpmey\\AppData\\Roaming\\npm\\node_modules\\windows-build-tools',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Users\rpmey\AppData\Roaming\npm\node_modules\windows-build-tools\node_modules\nugget'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Users\\rpmey\\AppData\\Roaming\\npm\\node_modules\\windows-build-tools\\node_modules\\nugget'      
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Users\rpmey\AppData\Roaming\npm\node_modules\windows-build-tools
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c node ./dist/index.js
+npm error Downloading python-2.7.15.amd64.msi
+npm error [>                                            ] 0.0% (0 B/s)
+npm error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading python-2.7.15.amd64.msi
+npm error [>                                            ] 0.0% of 20.2 MB (0 B/s)
+npm error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading python-2.7.15.amd64.msi
+npm error [====================>                        ] 47.2% of 20.2 MB (9.55 MB/s)
+npm error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading python-2.7.15.amd64.msi
+npm error [============================================>] 100.0% of 20.2 MB (20.2 MB/s)
+npm error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading python-2.7.15.amd64.msi
+npm error [============================================>] 100.0% of 20.2 MB (20.2 MB/s)
+npm error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading python-2.7.15.amd64.msi
+npm error [============================================>] 100.0% of 20.2 MB (20.2 MB/s)
+npm error Downloaded python-2.7.15.amd64.msi. Saved to C:\Users\rpmey\.windows-build-tools\python-2.7.15.amd64.msi.
+npm error
+npm error
+npm error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading vs_BuildTools.exe
+npm error [>                                            ] 0.0% (0 B/s)
+npm error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading vs_BuildTools.exe
+npm error [>                                            ] 0.0% of 1.12 MB (0 B/s)
+npm error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading vs_BuildTools.exe
+npm error [============================================>] 100.0% of 1.12 MB (1.12 MB/s)
+npm error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading vs_BuildTools.exe
+npm error [============================================>] 100.0% of 1.12 MB (1.12 MB/s)
+npm error ^[[1000D^[[0K^[[1A^[[1000D^[[0K^[[1A^[[1000D^[[0KDownloading vs_BuildTools.exe
+npm error [============================================>] 100.0% of 1.12 MB (1.12 MB/s)
+npm error Downloaded vs_BuildTools.exe. Saved to C:\Users\rpmey\.windows-build-tools\vs_BuildTools.exe.
+npm error
+npm error Starting installation...
+npm error Downloading installers failed. Error: TypeError: 'process.env' only accepts a configurable, writable, and enumerable data descriptor
+npm error     at Function.defineProperty (<anonymous>)
+npm error     at Object.removePath (C:\Users\rpmey\AppData\Roaming\npm\node_modules\windows-build-tools\dist\utils\remove-path.js:11:12)
+npm error     at Object.install (C:\Users\rpmey\AppData\Roaming\npm\node_modules\windows-build-tools\dist\install\index.js:29:19)    
+npm error     at C:\Users\rpmey\AppData\Roaming\npm\node_modules\windows-build-tools\dist\start.js:17:19
+npm error     at Object.download (C:\Users\rpmey\AppData\Roaming\npm\node_modules\windows-build-tools\dist\download.js:35:5)
+npm error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+npm error     at async Object.aquireInstallers (C:\Users\rpmey\AppData\Roaming\npm\node_modules\windows-build-tools\dist\aquire-installers.js:32:13) {
+npm error   code: 'ERR_INVALID_OBJECT_DEFINE_PROPERTY'
+npm error }
+npm error windows-build-tools will now exit.
+npm error (node:32040) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead. 
+npm error (Use `node --trace-deprecation ...` to show where the warning was created)
+npm error A complete log of this run can be found in: C:\Users\rpmey\AppData\Local\npm-cache\_logs\2025-02-22T04_30_00_256Z-debug-0.log
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install -g node-gyp@latest
+
+added 98 packages in 2s
+
+16 packages are looking for funding
+  run `npm fund` for details
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install -g n
+npm error code EBADPLATFORM
+npm error notsup Unsupported platform for n@10.1.0: wanted {"os":"!win32"} (current: {"os":"win32"})
+npm error notsup Valid os:  !win32
+npm error notsup Actual os: win32
+npm error A complete log of this run can be found in: C:\Users\rpmey\AppData\Local\npm-cache\_logs\2025-02-22T04_30_17_712Z-debug-0.log
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>sudo n latest
+Command not found
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install mongoose
+
+added 16 packages, and audited 516 packages in 2s
+
+160 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install sequelize pg pg-hstore
+
+added 31 packages, and audited 547 packages in 3s
+
+161 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install bcrypt helmet
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm warn deprecated gauge@3.0.2: This package is no longer supported.
+
+added 50 packages, and audited 597 packages in 2s
+
+164 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm install jest supertest --save-dev
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm warn deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+
+added 229 packages, and audited 826 packages in 7s
+
+183 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>docker pull owasp/zap2docker-stable
+Using default tag: latest
+error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.47/images/create?fromImage=owasp%2Fzap2docker-stable&tag=latest": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>python -m venv venv
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>source venv/bin/activate
+'source' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>venv\Scripts\activate
+
+(venv) C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger>npm init -y
+Wrote to C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\nextweb-slinger\package.json:
+
+{
+  "name": "nextweb-slinger",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "bullmq": "^5.41.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.10.1",
+    "next": "15.1.7",
+    "pdfkit": "^0.16.0",
+    "pg": "^8.13.3",
+    "pg-hstore": "^2.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "redis": "^4.7.0",
+    "sequelize": "^6.37.5",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "postcss": "^8.5.3",
+    "supertest": "^7.0.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

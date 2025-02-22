@@ -1,0 +1,31 @@
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>npm init -y
+Wrote to C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV\package.json:
+
+{
+  "name": "jurrasicdev",
+  "version": "1.0.0",
+  "description": "GT Hacks Projects",     
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpmeyer3/JURRASICDEV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpmeyer3/JURRASICDEV/issues"
+  },
+/JURRASICDEV#readme"
+}
+
+
+
+
+C:\Users\rpmey\OneDrive\Documents\GitHub\JURRASICDEV>

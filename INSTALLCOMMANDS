@@ -1,0 +1,117 @@
+Frontend (React.js/Next.js)
+
+1. Core Packages
+
+npm install react react-dom react-router-dom  # Routing
+npm install axios                             # API communication (or use native fetch)
+npm install @mui/material @emotion/react @emotion/styled  # Material-UI
+# OR
+npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion  # Chakra UI
+npm install @react-pdf/renderer               # react-pdf
+# OR
+npm install jspdf                             # jsPDF
+
+2. Testing
+
+npm install jest @testing-library/react @testing-library/jest-dom --save-dev
+
+3. Build Tools
+
+Vite (React):
+
+npm create vite@latest my-app -- --template react
+cd my-app
+npm install
+
+Next.js:
+
+npx create-next-app@latest my-app
+cd my-app
+npm install
+
+4. Styling
+
+npm install sass                              # Sass
+# OR
+npm install tailwindcss postcss autoprefixer --save-dev  # Tailwind
+npx tailwindcss init -p
+
+Backend (Python - Flask/Django)
+
+1. Core Packages
+
+pip install flask                             # Flask
+# OR
+pip install django                            # Django
+pip install celery redis                      # Async tasks (Redis as broker)
+# OR
+pip install celery rabbitmq                   # RabbitMQ as broker
+pip install python-owasp-zapv2 requests cryptography reportlab
+
+2. APIs & Integrations
+
+pip install shodan virustotal-api ssllabs-api
+
+3. Database (PostgreSQL)
+
+pip install psycopg2 sqlalchemy               # Flask (SQLAlchemy)
+# Django ORM is built-in (no extra install needed)
+
+4. Testing
+
+pip install pytest httpx --dev
+
+Backend (Node.js - Express)
+
+1. Core Packages
+
+npm install express bullmq redis pdfkit
+npm install shodan-api virustotal.js googleapis  # APIs
+
+2. Database
+
+npm install mongoose                           # MongoDB
+# OR
+npm install sequelize pg pg-hstore             # PostgreSQL
+
+3. Security
+
+npm install bcrypt helmet
+
+4. Testing
+
+npm install jest supertest --save-dev
+
+Additional Setup
+
+1. OWASP ZAP (Docker):
+
+docker pull owasp/zap2docker-stable
+
+2. Redis (Message Broker):
+
+# For Linux/macOS
+brew install redis                             # macOS
+sudo apt-get install redis                    # Ubuntu
+
+3. Python Virtual Environment:
+
+python -m venv venv
+source venv/bin/activate                      # Linux/macOS
+venv\Scripts\activate                         # Windows
+
+4. Initialize Node.js Project:
+
+npm init -y
+
+Notes
+
+Replace my-app with your project name.
+
+Use npm install --save-dev for dev dependencies (e.g., testing tools).
+
+For Django, create a project first:
+
+django-admin startproject myproject
+cd myproject
+Configure environment variables (e.g., API keys) in a .env file.

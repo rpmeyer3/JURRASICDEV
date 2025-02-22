@@ -1,0 +1,500 @@
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rpmey>npm install sass
+
+added 11 packages, and audited 565 packages in 2s
+
+53 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey>npm install tailwindcss postcss autoprefixer --save-dev
+
+added 6 packages, and audited 571 packages in 2s
+
+57 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey>npx tailwindcss init -p
+npm error could not determine executable to run
+npm error A complete log of this run can be found in: C:\Users\rpmey\AppData\Local\npm-cache\_logs\2025-02-22T03_25_08_345Z-debug-0.log
+
+C:\Users\rpmey>pip install flask
+Collecting flask
+  Using cached flask-3.1.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting Werkzeug>=3.1 (from flask)
+  Using cached werkzeug-3.1.3-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: Jinja2>=3.1.2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from flask) (3.1.5)
+Collecting itsdangerous>=2.2 (from flask)
+  Using cached itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting click>=8.1.3 (from flask)
+  Using cached click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Collecting blinker>=1.9 (from flask)
+  Using cached blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Requirement already satisfied: colorama in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from click>=8.1.3->flask) (0.4.6)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from Jinja2>=3.1.2->flask) (3.0.2)
+Using cached flask-3.1.0-py3-none-any.whl (102 kB)
+Using cached blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Using cached click-8.1.8-py3-none-any.whl (98 kB)
+Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Using cached werkzeug-3.1.3-py3-none-any.whl (224 kB)
+Installing collected packages: Werkzeug, itsdangerous, click, blinker, flask
+Successfully installed Werkzeug-3.1.3 blinker-1.9.0 click-8.1.8 flask-3.1.0 itsdangerous-2.2.0
+
+[notice] A new release of pip is available: 25.0 -> 25.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Users\rpmey>python.exe -m pip install --upgrade pip
+Requirement already satisfied: pip in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (25.0)
+Collecting pip
+  Downloading pip-25.0.1-py3-none-any.whl.metadata (3.7 kB)
+Downloading pip-25.0.1-py3-none-any.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 19.0 MB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.0
+    Uninstalling pip-25.0:
+      Successfully uninstalled pip-25.0
+Successfully installed pip-25.0.1
+
+C:\Users\rpmey>pip install django
+Requirement already satisfied: django in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (5.1.6)
+Requirement already satisfied: asgiref<4,>=3.8.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from django) (3.8.1)
+Requirement already satisfied: sqlparse>=0.3.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from django) (0.5.3)
+Requirement already satisfied: tzdata in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from django) (2025.1)
+
+C:\Users\rpmey>pip install celery redis
+Collecting celery
+  Downloading celery-5.4.0-py3-none-any.whl.metadata (21 kB)
+Collecting redis
+  Downloading redis-5.2.1-py3-none-any.whl.metadata (9.1 kB)
+Collecting billiard<5.0,>=4.2.0 (from celery)
+  Downloading billiard-4.2.1-py3-none-any.whl.metadata (4.4 kB)
+Collecting kombu<6.0,>=5.3.4 (from celery)
+  Downloading kombu-5.4.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting vine<6.0,>=5.1.0 (from celery)
+  Downloading vine-5.1.0-py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: click<9.0,>=8.1.2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (8.1.8)
+Collecting click-didyoumean>=0.3.0 (from celery)
+  Downloading click_didyoumean-0.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting click-repl>=0.2.0 (from celery)
+  Downloading click_repl-0.3.0-py3-none-any.whl.metadata (3.6 kB)
+Collecting click-plugins>=1.1.1 (from celery)
+  Downloading click_plugins-1.1.1-py2.py3-none-any.whl.metadata (6.4 kB)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (2025.1)
+Collecting python-dateutil>=2.8.2 (from celery)
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Requirement already satisfied: colorama in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from click<9.0,>=8.1.2->celery) (0.4.6)
+Collecting prompt-toolkit>=3.0.36 (from click-repl>=0.2.0->celery)
+  Downloading prompt_toolkit-3.0.50-py3-none-any.whl.metadata (6.6 kB)
+Collecting amqp<6.0.0,>=5.1.1 (from kombu<6.0,>=5.3.4->celery)
+  Downloading amqp-5.3.1-py3-none-any.whl.metadata (8.9 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->celery)
+  Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting wcwidth (from prompt-toolkit>=3.0.36->click-repl>=0.2.0->celery)
+  Downloading wcwidth-0.2.13-py2.py3-none-any.whl.metadata (14 kB)
+Downloading celery-5.4.0-py3-none-any.whl (425 kB)
+Downloading redis-5.2.1-py3-none-any.whl (261 kB)
+Downloading billiard-4.2.1-py3-none-any.whl (86 kB)
+Downloading click_didyoumean-0.3.1-py3-none-any.whl (3.6 kB)
+Downloading click_plugins-1.1.1-py2.py3-none-any.whl (7.5 kB)
+Downloading click_repl-0.3.0-py3-none-any.whl (10 kB)
+Downloading kombu-5.4.2-py3-none-any.whl (201 kB)
+Downloading vine-5.1.0-py3-none-any.whl (9.6 kB)
+Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading amqp-5.3.1-py3-none-any.whl (50 kB)
+Downloading prompt_toolkit-3.0.50-py3-none-any.whl (387 kB)
+Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Downloading wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+Installing collected packages: wcwidth, vine, six, redis, prompt-toolkit, billiard, python-dateutil, click-repl, click-plugins, click-didyoumean, amqp, kombu, celery
+Successfully installed amqp-5.3.1 billiard-4.2.1 celery-5.4.0 click-didyoumean-0.3.1 click-plugins-1.1.1 click-repl-0.3.0 kombu-5.4.2 prompt-toolkit-3.0.50 python-dateutil-2.9.0.post0 redis-5.2.1 six-1.17.0 vine-5.1.0 wcwidth-0.2.13
+
+C:\Users\rpmey>pip install celery rabbitmq
+Requirement already satisfied: celery in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (5.4.0)
+Collecting rabbitmq
+  Downloading rabbitmq-0.2.0-py2.py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: billiard<5.0,>=4.2.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (4.2.1)
+Requirement already satisfied: kombu<6.0,>=5.3.4 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (5.4.2)
+Requirement already satisfied: vine<6.0,>=5.1.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (5.1.0)
+Requirement already satisfied: click<9.0,>=8.1.2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (8.1.8)
+Requirement already satisfied: click-didyoumean>=0.3.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (0.3.1)
+Requirement already satisfied: click-repl>=0.2.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (0.3.0)
+Requirement already satisfied: click-plugins>=1.1.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (1.1.1)
+Requirement already satisfied: tzdata>=2022.7 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (2025.1)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from celery) (2.9.0.post0)
+Collecting cffi (from rabbitmq)
+  Downloading cffi-1.17.1-cp313-cp313-win_amd64.whl.metadata (1.6 kB)
+Requirement already satisfied: colorama in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from click<9.0,>=8.1.2->celery) (0.4.6)
+Requirement already satisfied: prompt-toolkit>=3.0.36 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from click-repl>=0.2.0->celery) (3.0.50)
+Requirement already satisfied: amqp<6.0.0,>=5.1.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from kombu<6.0,>=5.3.4->celery) (5.3.1)
+Requirement already satisfied: six>=1.5 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from python-dateutil>=2.8.2->celery) (1.17.0)
+Collecting pycparser (from cffi->rabbitmq)
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Requirement already satisfied: wcwidth in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from prompt-toolkit>=3.0.36->click-repl>=0.2.0->celery) (0.2.13)
+Downloading rabbitmq-0.2.0-py2.py3-none-any.whl (7.9 kB)
+Downloading cffi-1.17.1-cp313-cp313-win_amd64.whl (182 kB)
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+Installing collected packages: pycparser, cffi, rabbitmq
+Successfully installed cffi-1.17.1 pycparser-2.22 rabbitmq-0.2.0
+
+C:\Users\rpmey>pip install python-owasp-zapv2 requests cryptography reportlab
+ERROR: Could not find a version that satisfies the requirement python-owasp-zapv2 (from versions: none)
+ERROR: No matching distribution found for python-owasp-zapv2
+
+C:\Users\rpmey>pip install shodan virustotal-api ssllabs-api
+Collecting shodan
+  Downloading shodan-1.31.0.tar.gz (57 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting virustotal-api
+  Downloading virustotal_api-1.1.11-py2.py3-none-any.whl.metadata (7.5 kB)
+ERROR: Could not find a version that satisfies the requirement ssllabs-api (from versions: none)
+ERROR: No matching distribution found for ssllabs-api
+
+C:\Users\rpmey>pip install shodan virustotal-api ssllabs-api
+Collecting shodan
+  Using cached shodan-1.31.0.tar.gz (57 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting virustotal-api
+  Using cached virustotal_api-1.1.11-py2.py3-none-any.whl.metadata (7.5 kB)
+ERROR: Could not find a version that satisfies the requirement ssllabs-api (from versions: none)
+ERROR: No matching distribution found for ssllabs-api
+
+C:\Users\rpmey>pip install requests
+Requirement already satisfied: requests in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (2.32.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests) (2025.1.31)
+
+C:\Users\rpmey>pip install json
+ERROR: Could not find a version that satisfies the requirement json (from versions: none)
+ERROR: No matching distribution found for json
+
+C:\Users\rpmey>import logging
+'import' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rpmey>pip install python-dotenv
+Collecting python-dotenv
+  Downloading python_dotenv-1.0.1-py3-none-any.whl.metadata (23 kB)
+Downloading python_dotenv-1.0.1-py3-none-any.whl (19 kB)
+Installing collected packages: python-dotenv
+Successfully installed python-dotenv-1.0.1
+
+C:\Users\rpmey>pip install shodan virustotal-api ssllabs-api
+Collecting shodan
+  Using cached shodan-1.31.0.tar.gz (57 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting virustotal-api
+  Using cached virustotal_api-1.1.11-py2.py3-none-any.whl.metadata (7.5 kB)
+ERROR: Could not find a version that satisfies the requirement ssllabs-api (from versions: none)
+ERROR: No matching distribution found for ssllabs-api
+
+C:\Users\rpmey>pip install shodan virustotal-api
+Collecting shodan
+  Using cached shodan-1.31.0.tar.gz (57 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting virustotal-api
+  Using cached virustotal_api-1.1.11-py2.py3-none-any.whl.metadata (7.5 kB)
+Requirement already satisfied: click in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from shodan) (8.1.8)
+Requirement already satisfied: click-plugins in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from shodan) (1.1.1)
+Requirement already satisfied: colorama in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from shodan) (0.4.6)
+Requirement already satisfied: requests>=2.2.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from shodan) (2.32.3)
+Collecting XlsxWriter (from shodan)
+  Downloading XlsxWriter-3.2.2-py3-none-any.whl.metadata (2.8 kB)
+Collecting tldextract (from shodan)
+  Downloading tldextract-5.1.3-py3-none-any.whl.metadata (11 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests>=2.2.1->shodan) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests>=2.2.1->shodan) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests>=2.2.1->shodan) (2.3.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from requests>=2.2.1->shodan) (2025.1.31)
+Collecting requests-file>=1.4 (from tldextract->shodan)
+  Downloading requests_file-2.1.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Requirement already satisfied: filelock>=3.0.8 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from tldextract->shodan) (3.17.0)
+Downloading virustotal_api-1.1.11-py2.py3-none-any.whl (15 kB)
+Downloading tldextract-5.1.3-py3-none-any.whl (104 kB)
+Downloading XlsxWriter-3.2.2-py3-none-any.whl (165 kB)
+Downloading requests_file-2.1.0-py2.py3-none-any.whl (4.2 kB)
+Building wheels for collected packages: shodan
+  Building wheel for shodan (pyproject.toml) ... done
+  Created wheel for shodan: filename=shodan-1.31.0-py3-none-any.whl size=49340 sha256=1a274c8b2b632a0288d6ac4ae9e8e4cd8ec57aa1902b65d015199850628fc042
+  Stored in directory: c:\users\rpmey\appdata\local\pip\cache\wheels\e4\5f\33\53ae60bc8aa27693d506ffc828afe9ed0e4cab7cb89bf56847
+Successfully built shodan
+Installing collected packages: XlsxWriter, virustotal-api, requests-file, tldextract, shodan
+Successfully installed XlsxWriter-3.2.2 requests-file-2.1.0 shodan-1.31.0 tldextract-5.1.3 virustotal-api-1.1.11
+
+C:\Users\rpmey>pip install psycopg2 sqlalchemy
+Collecting psycopg2
+  Downloading psycopg2-2.9.10-cp313-cp313-win_amd64.whl.metadata (4.8 kB)
+Collecting sqlalchemy
+  Downloading SQLAlchemy-2.0.38-cp313-cp313-win_amd64.whl.metadata (9.9 kB)
+Collecting greenlet!=0.4.17 (from sqlalchemy)
+  Downloading greenlet-3.1.1-cp313-cp313-win_amd64.whl.metadata (3.9 kB)
+Requirement already satisfied: typing-extensions>=4.6.0 in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from sqlalchemy) (4.12.2)
+Downloading psycopg2-2.9.10-cp313-cp313-win_amd64.whl (2.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 30.7 MB/s eta 0:00:00
+Downloading SQLAlchemy-2.0.38-cp313-cp313-win_amd64.whl (2.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 34.2 MB/s eta 0:00:00
+Downloading greenlet-3.1.1-cp313-cp313-win_amd64.whl (299 kB)
+Installing collected packages: psycopg2, greenlet, sqlalchemy
+Successfully installed greenlet-3.1.1 psycopg2-2.9.10 sqlalchemy-2.0.38
+
+C:\Users\rpmey>pip install pytest httpx --dev
+
+Usage:
+  pip install [options] <requirement specifier> [package-index-options] ...
+  pip install [options] -r <requirements file> [package-index-options] ...
+  pip install [options] [-e] <vcs project url> ...
+  pip install [options] [-e] <local project path> ...
+  pip install [options] <archive url/path> ...
+
+no such option: --dev
+
+C:\Users\rpmey>pip install pytest httpx
+Collecting pytest
+  Downloading pytest-8.3.4-py3-none-any.whl.metadata (7.5 kB)
+Collecting httpx
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Requirement already satisfied: colorama in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from pytest) (0.4.6)
+Collecting iniconfig (from pytest)
+  Downloading iniconfig-2.0.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting packaging (from pytest)
+  Using cached packaging-24.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting pluggy<2,>=1.5 (from pytest)
+  Downloading pluggy-1.5.0-py3-none-any.whl.metadata (4.8 kB)
+Collecting anyio (from httpx)
+  Using cached anyio-4.8.0-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: certifi in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from httpx) (2025.1.31)
+Collecting httpcore==1.* (from httpx)
+  Using cached httpcore-1.0.7-py3-none-any.whl.metadata (21 kB)
+Requirement already satisfied: idna in c:\users\rpmey\appdata\local\programs\python\python313\lib\site-packages (from httpx) (3.10)
+Collecting h11<0.15,>=0.13 (from httpcore==1.*->httpx)
+  Using cached h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting sniffio>=1.1 (from anyio->httpx)
+  Using cached sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Downloading pytest-8.3.4-py3-none-any.whl (343 kB)
+Using cached httpx-0.28.1-py3-none-any.whl (73 kB)
+Using cached httpcore-1.0.7-py3-none-any.whl (78 kB)
+Downloading pluggy-1.5.0-py3-none-any.whl (20 kB)
+Using cached anyio-4.8.0-py3-none-any.whl (96 kB)
+Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Using cached packaging-24.2-py3-none-any.whl (65 kB)
+Using cached h11-0.14.0-py3-none-any.whl (58 kB)
+Using cached sniffio-1.3.1-py3-none-any.whl (10 kB)
+Installing collected packages: sniffio, pluggy, packaging, iniconfig, h11, pytest, httpcore, anyio, httpx
+Successfully installed anyio-4.8.0 h11-0.14.0 httpcore-1.0.7 httpx-0.28.1 iniconfig-2.0.0 packaging-24.2 pluggy-1.5.0 pytest-8.3.4 sniffio-1.3.1
+
+C:\Users\rpmey>npm install express bullmq redis pdfkit
+
+added 90 packages, and audited 661 packages in 4s
+
+68 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey>npm install shodan-api virustotal.js googleapis
+npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm error code 1
+npm error path C:\Users\rpmey\node_modules\mmmagic
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c node-gyp rebuild
+npm error apprentice.c
+npm error   apptype.c
+npm error   ascmagic.c
+npm error   cdf.c
+npm error   cdf_time.c
+npm error   compress.c
+npm error   der.c
+npm error   encoding.c
+npm error   fsmagic.c
+npm error   funcs.c
+npm error   is_tar.c
+npm error   magic.c
+npm error   print.c
+npm error   readcdf.c
+npm error C:\Users\rpmey\node_modules\mmmagic\deps\libmagic\src\readcdf.c(133,7): warning C4013: 'strcasestr' undefined; assuming extern returning int [C:\Users\rpmey\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error C:\Users\rpmey\node_modules\mmmagic\deps\libmagic\src\readcdf.c(133,39): warning C4047: '!=': 'int' differs in levels of indirection from 'void *' [C:\Users\rpmey\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error C:\Users\rpmey\node_modules\mmmagic\deps\libmagic\src\readcdf.c(241,55): warning C4133: 'function': incompatible types - from 'long *' to 'const time_t *' [C:\Users\rpmey\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   readelf.c
+npm error   softmagic.c
+npm error   fmtcheck.c
+npm error   asctime_r.c
+npm error   asprintf.c
+npm error   ctime_r.c
+npm error   dprintf.c
+npm error   getline.c
+npm error   gmtime_r.c
+npm error   localtime_r.c
+npm error   pread.c
+npm error   snprintf.c
+npm error   strcasestr.c
+npm error   strlcat.c
+npm error   strlcpy.c
+npm error   vasprintf.c
+npm error   regex.c
+npm error C:\Users\rpmey\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regcomp.c(590,19): warning C4018: '<=': signed/unsigned mismatch [C:\Users\rpmey\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regcomp.c(2513,39): warning C4312: 'type cast': conversion from 'long' to 'void *' of greater size [C:\Users\rpmey\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regcomp.c(3725,19): warning C4311: 'type cast': pointer truncation from 'void *' to 'long' [C:\Users\rpmey\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regexec.c(524,11): warning C4018: '>': signed/unsigned mismatch [C:\Users\rpmey\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regexec.c(539,7): warning C4018: '>=': signed/unsigned mismatch [C:\Users\rpmey\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error C:\Users\rpmey\node_modules\mmmagic\deps\libmagic\msvc\libgnurx-2.5\regexec.c(549,13): warning C4018: '<': signed/unsigned mismatch [C:\Users\rpmey\node_modules\mmmagic\build\deps\libmagic\libmagic.vcxproj]
+npm error   (compiling source file '../../../deps/libmagic/msvc/libgnurx-2.5/regex.c')
+npm error
+npm error   win_delay_load_hook.cc
+npm error   libmagic.vcxproj -> C:\Users\rpmey\node_modules\mmmagic\build\Release\\libmagic.lib
+npm error   binding.cc
+npm error C:\Users\rpmey\node_modules\mmmagic\src\binding.cc(284,39): error C2440: '=': cannot convert from 'const char [25]' to 'char *' [C:\Users\rpmey\node_modules\mmmagic\build\magic.vcxproj]
+npm error       C:\Users\rpmey\node_modules\mmmagic\src\binding.cc(284,39):
+npm error       Conversion from string literal loses const qualifier (see /Zc:strictStrings)
+npm error gyp info it worked if it ends with ok
+npm error gyp info using node-gyp@11.0.0
+npm error gyp info using node@22.13.1 | win32 | x64
+npm error gyp info find Python using Python version 3.13.2 found at "C:\Users\rpmey\AppData\Local\Programs\Python\Python313\python.exe"
+npm error gyp http GET https://nodejs.org/download/release/v22.13.1/node-v22.13.1-headers.tar.gz
+npm error gyp http 200 https://nodejs.org/download/release/v22.13.1/node-v22.13.1-headers.tar.gz
+npm error gyp http GET https://nodejs.org/download/release/v22.13.1/SHASUMS256.txt
+npm error gyp http GET https://nodejs.org/download/release/v22.13.1/win-x64/node.lib
+npm error gyp http 200 https://nodejs.org/download/release/v22.13.1/SHASUMS256.txt
+npm error gyp http 200 https://nodejs.org/download/release/v22.13.1/win-x64/node.lib
+npm error gyp info find VS using VS2022 (17.12.35707.178) found at:
+npm error gyp info find VS "C:\Program Files\Microsoft Visual Studio\2022\Community"
+npm error gyp info find VS run with --verbose for detailed information
+npm error gyp info spawn C:\Users\rpmey\AppData\Local\Programs\Python\Python313\python.exe
+npm error gyp info spawn args [
+npm error gyp info spawn args 'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\gyp\\gyp_main.py',
+npm error gyp info spawn args 'binding.gyp',
+npm error gyp info spawn args '-f',
+npm error gyp info spawn args 'msvs',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args 'C:\\Users\\rpmey\\node_modules\\mmmagic\\build\\config.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args 'C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\addon.gypi',
+npm error gyp info spawn args '-I',
+npm error gyp info spawn args 'C:\\Users\\rpmey\\AppData\\Local\\node-gyp\\Cache\\22.13.1\\include\\node\\common.gypi',
+npm error gyp info spawn args '-Dlibrary=shared_library',
+npm error gyp info spawn args '-Dvisibility=default',
+npm error gyp info spawn args '-Dnode_root_dir=C:\\Users\\rpmey\\AppData\\Local\\node-gyp\\Cache\\22.13.1',
+npm error gyp info spawn args '-Dnode_gyp_dir=C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp',
+npm error gyp info spawn args '-Dnode_lib_file=C:\\\\Users\\\\rpmey\\\\AppData\\\\Local\\\\node-gyp\\\\Cache\\\\22.13.1\\\\<(target_arch)\\\\node.lib',
+npm error gyp info spawn args '-Dmodule_root_dir=C:\\Users\\rpmey\\node_modules\\mmmagic',
+npm error gyp info spawn args '-Dnode_engine=v8',
+npm error gyp info spawn args '--depth=.',
+npm error gyp info spawn args '--no-parallel',
+npm error gyp info spawn args '--generator-output',
+npm error gyp info spawn args 'C:\\Users\\rpmey\\node_modules\\mmmagic\\build',
+npm error gyp info spawn args '-Goutput_dir=.'
+npm error gyp info spawn args ]
+npm error gyp info spawn C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+npm error gyp info spawn args [
+npm error gyp info spawn args 'build\\binding.sln',
+npm error gyp info spawn args '/clp:Verbosity=minimal',
+npm error gyp info spawn args '/nologo',
+npm error gyp info spawn args '/p:Configuration=Release;Platform=x64'
+npm error gyp info spawn args ]
+npm error gyp ERR! build error
+npm error gyp ERR! stack Error: `C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe` failed with exit code: 1
+npm error gyp ERR! stack at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\node-gyp\lib\build.js:216:23)
+npm error gyp ERR! stack at ChildProcess.emit (node:events:524:28)
+npm error gyp ERR! stack at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+npm error gyp ERR! System Windows_NT 10.0.26100
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild"
+npm error gyp ERR! cwd C:\Users\rpmey\node_modules\mmmagic
+npm error gyp ERR! node -v v22.13.1
+npm error gyp ERR! node-gyp -v v11.0.0
+npm error gyp ERR! not ok
+npm error A complete log of this run can be found in: C:\Users\rpmey\AppData\Local\npm-cache\_logs\2025-02-22T03_34_44_116Z-debug-0.log
+
+C:\Users\rpmey>npm install mongoose
+
+added 17 packages, and audited 678 packages in 3s
+
+69 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey>npm install sequelize pg pg-hstore
+
+added 31 packages, and audited 709 packages in 3s
+
+70 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey>npm install bcrypt helmet
+npm warn deprecated npmlog@5.0.1: This package is no longer supported.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated are-we-there-yet@2.0.0: This package is no longer supported.
+npm warn deprecated gauge@3.0.2: This package is no longer supported.
+
+added 39 packages, and audited 748 packages in 3s
+
+72 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey>npm install jest supertest --save-dev
+
+added 9 packages, and audited 757 packages in 2s
+
+74 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+C:\Users\rpmey>docker pull owasp/zap2docker-stable
+Using default tag: latest
+error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.47/images/create?fromImage=owasp%2Fzap2docker-stable&tag=latest": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\rpmey>brew install redis
+'brew' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rpmey>python -m venv venv
+
+C:\Users\rpmey>source venv/bin/activate
+'source' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rpmey>source venv/bin/activate
+'source' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rpmey>venv\Scripts\activate
+
+(venv) C:\Users\rpmey>source venv/bin/activate
+'source' is not recognized as an internal or external command,
+operable program or batch file.
+
+(venv) C:\Users\rpmey>cd ../
+
+(venv) C:\Users>cd rpmey
+
+(venv) C:\Users\rpmey>

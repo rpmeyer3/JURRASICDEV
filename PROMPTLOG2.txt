@@ -1,0 +1,149 @@
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\rpmey>npx create-next-app@latest my-app
+Need to install the following packages:
+create-next-app@15.1.7
+Ok to proceed? (y) y
+
+The directory my-app contains files that could conflict:
+
+  eslint.config.js
+  index.html
+  node_modules/
+  package-lock.json
+  package.json
+  public/
+  README.md
+  src/
+  vite.config.js
+
+Either try using a new directory name, or remove the files listed above.
+
+
+C:\Users\rpmey>npx create-next-app@latest web-slinger
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to use Turbopack for `next dev`? ... No / Yes
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes
+? What import alias would you like configured? » webslinger
+
+C:\Users\rpmey>npx create-next-app@latest web-slinger
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+? Would you like to use App Router? (recommended) » No / Yes
+
+C:\Users\rpmey>npx create-next-app@latest web-slinger
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to use Turbopack for `next dev`? ... No / Yes
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes
+? What import alias would you like configured? » @/*
+
+C:\Users\rpmey>npx create-next-app@latest web-slinger
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like your code inside a `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to use Turbopack for `next dev`? ... No / Yes
+√ Would you like to customize the import alias (`@/*` by default)? ... No / Yes
+Creating a new Next.js app in C:\Users\rpmey\web-slinger.
+
+Using npm.
+
+Initializing project with template: app-tw
+
+
+Installing dependencies:
+- react
+- react-dom
+- next
+
+Installing devDependencies:
+- typescript
+- @types/node
+- @types/react
+- @types/react-dom
+- postcss
+- tailwindcss
+- eslint
+- eslint-config-next
+- @eslint/eslintrc
+
+
+added 375 packages, and audited 376 packages in 23s
+
+144 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Initialized a git repository.
+
+Success! Created web-slinger at C:\Users\rpmey\web-slinger
+
+
+C:\Users\rpmey>npm create vite@latest web-slinger -- --template react
+
+> npx
+> create-vite web-slinger --template react
+
+√ Target directory "web-slinger" is not empty. Please choose how to proceed: » Cancel operation
+✖ Operation cancelled
+
+C:\Users\rpmey>npm create vite@latest viteweb-slinger -- --template rea
+ct
+
+> npx
+> create-vite viteweb-slinger --template react
+
+
+Scaffolding project in C:\Users\rpmey\viteweb-slinger...
+
+Done. Now run:
+
+  cd viteweb-slinger
+  npm install
+  npm run dev
+
+
+C:\Users\rpmey>cd viteweb-slinger
+
+C:\Users\rpmey\viteweb-slinger>npm install
+
+added 258 packages, and audited 259 packages in 7s
+
+108 packages are looking for funding
+  run `npm fund` for details
+
+3 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+C:\Users\rpmey\viteweb-slinger>rpm run dev
+'rpm' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\rpmey\viteweb-slinger>npm run dev
+
+> viteweb-slinger@0.0.0 dev
+> vite
+
+Port 5173 is in use, trying another one...
+
+  VITE v6.1.1  ready in 238 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
